@@ -320,7 +320,7 @@ async function startAutoReg() {
   }
 
   if (imapConfig.usingDefaults) {
-    showToast('Using shared catch-all (whitebite.ru)', 'info');
+    showToast('Using default IMAP settings', 'info');
   }
 
   const config = {
